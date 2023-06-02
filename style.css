@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url(Flowers_wallpapers_247.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-y: -60px 60px;
+    background-position-x: -150px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.click {
+
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.click h1 {
+    color: aliceblue;
+    background-color: rgba(160, 133, 137, 0.521);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.click button {
+    background-color: rgb(134, 77, 87);
+    color: aliceblue;
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.click .ogahh {
+    margin-top: 60px;
+}
+
+.click img {
+    object-fit: cover;
+    width: 150px;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+
+#imge {
+    display: none;
+}
+
+#imge2 {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .click h1 {
+        width: 80%;
+
+    }
+}
